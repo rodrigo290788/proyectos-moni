@@ -1,0 +1,17 @@
+:root {
+    --primario: #0bceaf;
+    --secundario: #0a9587;
+  }
+
+body {
+    padding-top: 56px;
+}
+.admin-section {
+    display: none;
+}
+#search-results {
+    height: 350px;
+    max-height: 600px; /* Altura máxima de 600px */
+    overflow-y: scroll; /* Habilitar desplazamiento vertical */
+    overflow-x: hidden; /* Ocultar desplazamiento horizontal (opcional) */
+}
