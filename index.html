@@ -62,8 +62,12 @@
 
                 <div class="d-lg-flex w-100 gap-3">
                     <div class="mb-3">
-                        <label for="project-date" class="form-label">Fecha</label>
-                        <input type="date" id="project-date" class="form-control" required>
+                        <label for="project-entry-date" class="form-label">Fecha de Ingreso</label>
+                        <input type="date" id="project-entry-date" class="form-control" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="approval-date" class="form-label">Fecha de Aprobación</label>
+                        <input type="date" id="approval-date" class="form-control">
                     </div>
                     <div class="mb-3 flex-grow-1">
                         <label for="file-link" class="form-label">Link de Google Drive</label>
@@ -92,7 +96,7 @@
                     </div>
                 </div>
 
-                <button type="button" class="btn btn-success mb-3 mt-4 w-100 border-0" onclick="uploadFile()" style="max-width: 250px; background-color: var(--primario);">Guardar</button>
+                <button id="save-btn" type="button" class="btn btn-success mb-3 mt-4 w-100 border-0" onclick="uploadFile()" style="max-width: 250px; background-color: var(--primario);">Guardar</button>
             </form>
         </div>
 
